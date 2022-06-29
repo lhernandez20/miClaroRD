@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AllTests">
+  <test name="testLogout">
+      <classes>
+      <class name="logout"/>
+      </classes>
+  </test> <!-- Test --> 
+  
+  <test name="testWrongUsernamePassword">
+      <classes>
+      <class name="wrongUsernameAndPassword"/>
+      </classes>
+  </test> <!-- Test --> 
+  
+  <test name="testnoUsernamePassword">
+      <classes>
+      <class name="noUsernameAndPassword"/>
+      </classes>
+  </test> <!-- Test --> 
+  
+   <test name="succefullLogin">
+      <classes>
+      <class name="validateLoginFailedMessage"/>
+      </classes>
+  </test> <!-- Test --> 
+  
+  <test name="testLogin">
+      <classes>
+      <class name="succefullLogin"/>
+      </classes>
+  </test> <!-- Test --> 
+ 
+</suite> <!-- Suite -->
